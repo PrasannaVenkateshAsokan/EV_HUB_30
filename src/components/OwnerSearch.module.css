@@ -1,0 +1,170 @@
+.image1Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.pageIndicator {
+  align-self: stretch;
+  width: 208px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl) 0 0;
+  box-sizing: border-box;
+}
+.vehicles {
+  position: relative;
+  font-weight: 500;
+}
+.jobCards {
+  white-space: nowrap;
+}
+.jobCards,
+.management {
+  position: relative;
+  font-weight: 500;
+}
+.groupAlignmentChild {
+  height: 3px;
+  width: 120px;
+  position: relative;
+}
+.groupAlignment,
+.textLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupAlignment {
+  height: 0;
+  flex-direction: row;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.textLabel {
+  flex-direction: column;
+  gap: 8.5px 0;
+}
+.goButtonIcon {
+  width: 12px;
+  height: 5px;
+  position: relative;
+}
+.pageElement,
+.searchBar {
+  justify-content: flex-start;
+}
+.pageElement {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-2xs) 0 0;
+}
+.searchBar {
+  flex-direction: row;
+  gap: 0 6px;
+  color: var(--color-darkslateblue);
+}
+.lineSeparator,
+.rectangleFrame,
+.searchBar {
+  display: flex;
+  align-items: flex-start;
+}
+.lineSeparator {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.rectangleFrame {
+  width: 540px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-2xs-5);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.textContainerIcon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+}
+.labelTextIcon,
+.searchIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 20px;
+}
+.searchIcon {
+  top: 3px;
+  left: 19px;
+  width: 12px;
+  height: 5px;
+}
+.inputField {
+  width: 31px;
+  height: 20px;
+  position: relative;
+}
+.textContent {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-12xs);
+}
+.arrowLine,
+.spacerElement,
+.textContent {
+  display: flex;
+  justify-content: flex-start;
+}
+.spacerElement {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 16px;
+}
+.arrowLine {
+  height: 71px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.locationGroup,
+.ownerSearch {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.locationGroup {
+  align-self: stretch;
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.ownerSearch {
+  width: 1422px;
+  height: 93px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1050px) {
+  .lineSeparator {
+    display: none;
+  }
+  .rectangleFrame {
+    width: 0;
+  }
+}

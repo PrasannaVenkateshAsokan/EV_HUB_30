@@ -1,0 +1,365 @@
+.garages {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.buttonBuilder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.listMakerChild {
+  height: 44px;
+  width: 324px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.tableFormer {
+  width: 212px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  font-family: var(--font-montserrat);
+  font-weight: 500;
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-400);
+}
+.progressBarIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+  z-index: 1;
+}
+.listMaker,
+.textOutputField {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.listMaker {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: var(--padding-2xs) var(--padding-base) var(--padding-4xs)
+    var(--padding-4xl);
+  min-width: 208px;
+  gap: var(--gap-xl);
+}
+.textOutputField {
+  width: 440px;
+  justify-content: flex-start;
+  gap: 0 12px;
+  max-width: 100%;
+}
+.maskGroupIcon {
+  width: 32px;
+  height: 36px;
+  position: relative;
+}
+.slider {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs);
+}
+.frameDecorator,
+.textInputField {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.textInputField {
+  width: 1352px;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-xl);
+}
+.frameDecorator {
+  width: 1421px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xs) var(--padding-xl);
+  flex-shrink: 0;
+}
+.rangeOutput {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-400);
+  box-sizing: border-box;
+}
+.joiner,
+.splitter {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.joiner {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-400);
+}
+.splitter {
+  align-self: stretch;
+  height: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+}
+.stackChild {
+  width: 17px;
+  height: 11.8px;
+  position: relative;
+}
+.stack {
+  height: 20.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xl) 0 0;
+  box-sizing: border-box;
+}
+.vectorIcon {
+  width: 10px;
+  height: 11.8px;
+  position: relative;
+}
+.stack1 {
+  height: 20.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xl) 0 0;
+  box-sizing: border-box;
+}
+.vectorIcon1 {
+  width: 10px;
+  height: 11.8px;
+  position: relative;
+  object-fit: contain;
+}
+.stack2 {
+  height: 20.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xl) 0 0;
+  box-sizing: border-box;
+}
+.stackItem {
+  width: 17px;
+  height: 11.8px;
+  position: relative;
+  object-fit: contain;
+}
+.stack3 {
+  height: 20.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl) 0 0;
+  box-sizing: border-box;
+}
+.of1,
+.page {
+  position: relative;
+  font-weight: 500;
+}
+.of1 {
+  color: var(--color-darkslateblue);
+}
+.firstInFirstOut,
+.lastInFirstOut {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lastInFirstOut {
+  flex-direction: row;
+  gap: 0 13px;
+}
+.firstInFirstOut {
+  height: 24.6px;
+  flex-direction: column;
+  padding: 0 var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.goToPage {
+  position: relative;
+  font-weight: 500;
+}
+.indexer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4.600000000000023px 0 0;
+}
+.searchTreeChild {
+  height: 29.2px;
+  width: 60px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  display: none;
+}
+.heap {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.mapFunction,
+.searchTree {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.searchTree {
+  width: 60px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  padding: var(--padding-7xs-5) var(--padding-4xl) 3.7000000000000455px
+    var(--padding-7xl);
+}
+.mapFunction {
+  gap: 0 7px;
+}
+.matrix {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 29.2px;
+  right: -50px;
+  bottom: -29.2px;
+  left: 50px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkslateblue);
+  border: 1px solid var(--color-darkslateblue);
+  box-sizing: border-box;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.go,
+.graph {
+  position: relative;
+}
+.go {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.graph {
+  cursor: pointer;
+  border: 0;
+  padding: 4.600000000000023px var(--padding-4xs) 4.600000000000023px
+    var(--padding-3xs);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.priorityQueue,
+.queueManager {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.priorityQueue {
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 23px;
+}
+.queueManager {
+  width: 1402px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgray-100);
+}
+.assignNode,
+.garageManagement {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.assignNode {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 14px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-montserrat);
+}
+.garageManagement {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-silver-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-7xs) 0 24.799999999999955px;
+  gap: 45px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .priorityQueue,
+  .textInputField {
+    flex-wrap: wrap;
+  }
+  .garageManagement {
+    gap: 22px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .garages {
+    font-size: var(--font-size-lg);
+  }
+  .textOutputField {
+    flex-wrap: wrap;
+  }
+}

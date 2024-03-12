@@ -1,0 +1,322 @@
+.frameChild {
+  height: 85px;
+  width: 1359px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.chain,
+.radiatorServices {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.chain {
+  width: 52px;
+  display: inline-block;
+}
+.radiatorServices {
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-500);
+}
+.chainParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chainParent {
+  gap: 9px 0;
+}
+.frameWrapper {
+  padding: var(--padding-11xs) 0 0;
+}
+.image26Icon {
+  height: 54px;
+  width: 65px;
+  position: relative;
+  object-fit: cover;
+  min-height: 54px;
+  z-index: 2;
+}
+.frameItem {
+  width: 1px;
+  flex: 1;
+  position: relative;
+  border-right: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.image26Parent,
+.lineWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lineWrapper {
+  height: 51px;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.image26Parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex-direction: row;
+  gap: 0 19px;
+}
+.owner {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.dropdownIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-23xl);
+}
+.robertBoschGmbh {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-darkslateblue);
+  z-index: 1;
+}
+.dropdownIconParent,
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dropdownIconParent {
+  gap: 9px 0;
+}
+.frameDiv {
+  padding: var(--padding-12xs) 0 0;
+}
+.frameInner {
+  height: 50px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+}
+.frameGroup {
+  width: 179px;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameContainer {
+  height: 51px;
+  width: 221px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.fillColorPicker,
+.garages {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.frameWrapper1,
+.garagesParent,
+.strokeDashPicker {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.strokeDashPicker {
+  flex-direction: row;
+  padding: 0 var(--padding-3xl) 0 var(--padding-4xl);
+  color: var(--color-darkslateblue);
+}
+.frameWrapper1,
+.garagesParent {
+  flex-direction: column;
+}
+.garagesParent {
+  gap: 9px 0;
+}
+.frameWrapper1 {
+  padding: var(--padding-11xs) var(--padding-9xl) 0 0;
+}
+.lineDiv {
+  width: 1px;
+  flex: 1;
+  position: relative;
+  border-right: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.lineContainer {
+  height: 51px;
+  width: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.location {
+  white-space: nowrap;
+}
+.location,
+.pages {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.frameWrapper2,
+.locationParent,
+.searchInput {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.searchInput {
+  flex-direction: row;
+  padding: 0 var(--padding-8xl);
+  color: var(--color-darkslateblue);
+}
+.frameWrapper2,
+.locationParent {
+  flex-direction: column;
+}
+.locationParent {
+  gap: 9px 0;
+}
+.frameWrapper2 {
+  padding: var(--padding-11xs) var(--padding-6xl) 0 0;
+}
+.pageOf {
+  width: 1px;
+  height: 50px;
+  position: relative;
+  border-right: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.pageOfWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl) 0 0;
+}
+.vectorIcon {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  z-index: 1;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+}
+.groupIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: 1;
+}
+.groupWrapper {
+  flex-direction: column;
+  padding: var(--padding-xs) 0 0;
+}
+.frameParent1,
+.frameWrapper3,
+.groupWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  flex: 1;
+  flex-direction: row;
+  gap: 0 20px;
+}
+.frameWrapper3 {
+  height: 51px;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.frameBorders,
+.frameParent,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  justify-content: flex-start;
+  gap: 0 46px;
+}
+.frameBorders,
+.rectangleParent {
+  box-sizing: border-box;
+}
+.rectangleParent {
+  width: 1359px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--color-gainsboro-300);
+  justify-content: space-between;
+  padding: var(--padding-lg) var(--padding-21xl) var(--padding-smi)
+    var(--padding-42xl);
+  gap: var(--gap-xl);
+}
+.frameBorders {
+  width: 1420px;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs) var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgray-200);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1200px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+    padding-left: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    gap: 0 23px;
+  }
+}

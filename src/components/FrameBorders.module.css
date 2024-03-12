@@ -1,0 +1,316 @@
+.frameChild {
+  height: 85px;
+  width: 1359px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.autoParts,
+.chain {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.chain {
+  width: 52px;
+  display: inline-block;
+}
+.autoParts {
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-500);
+}
+.chainParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px 0;
+}
+.frameItem {
+  height: 49px;
+  width: 53px;
+  position: relative;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-silver-200);
+  box-sizing: border-box;
+  display: none;
+}
+.noLogo {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-silver-300);
+  text-align: center;
+  z-index: 1;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 1px solid var(--color-silver-200);
+  padding: var(--padding-4xs) var(--padding-7xs) var(--padding-3xs)
+    var(--padding-5xs);
+  background-color: var(--color-white);
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.rectangleGroup:hover {
+  background-color: var(--color-gainsboro-500);
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+}
+.frameInner {
+  height: 50px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.frameGroup {
+  height: 50px;
+  width: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 27px;
+}
+.owner {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.ownerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-23xl);
+}
+.robertBoschGmbh {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-darkslateblue);
+  z-index: 2;
+}
+.frameDiv,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  gap: 9px 0;
+}
+.frameWrapper {
+  padding: var(--padding-12xs) 0 0;
+}
+.frameContainer,
+.textSizePicker {
+  height: 50px;
+  box-sizing: border-box;
+}
+.textSizePicker {
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--color-gainsboro-100);
+  z-index: 1;
+}
+.frameContainer {
+  width: 221px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-22xl) 0 0;
+  gap: 0 32px;
+}
+.div,
+.garages {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.frameWrapper1,
+.garagesParent,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-2xl) 0 var(--padding-4xl);
+  color: var(--color-darkslateblue);
+}
+.frameWrapper1,
+.garagesParent {
+  flex-direction: column;
+}
+.garagesParent {
+  gap: 9px 0;
+}
+.frameWrapper1 {
+  padding: var(--padding-12xs) var(--padding-9xl) 0 0;
+}
+.lineDiv {
+  width: 1px;
+  height: 50px;
+  position: relative;
+  border-right: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.lineWrapper {
+  height: 50px;
+  width: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.germany,
+.location {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.frameWrapper2,
+.germanyWrapper,
+.locationParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.germanyWrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+  color: var(--color-darkslateblue);
+}
+.frameWrapper2,
+.locationParent {
+  flex-direction: column;
+}
+.locationParent {
+  gap: 9px 0;
+}
+.frameWrapper2 {
+  padding: var(--padding-12xs) var(--padding-mid) 0 0;
+}
+.frameChild1 {
+  width: 1px;
+  height: 50px;
+  position: relative;
+  border-right: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.lineContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl) 0 0;
+}
+.frameHolderIcon {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  z-index: 1;
+}
+.lineElement {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+}
+.groupIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: 1;
+}
+.frameParent1,
+.lineBar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lineBar {
+  flex-direction: column;
+  padding: var(--padding-xs) 0 0;
+}
+.frameParent1 {
+  height: 50px;
+  flex-direction: row;
+  gap: 0 20px;
+}
+.frameBorders,
+.frameParent,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frameParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 46px;
+}
+.frameBorders,
+.rectangleParent {
+  box-sizing: border-box;
+}
+.rectangleParent {
+  width: 1359px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--color-gainsboro-300);
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-lgi) var(--padding-21xl) var(--padding-base)
+    var(--padding-42xl);
+  gap: var(--gap-xl);
+}
+.frameBorders {
+  width: 1420px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs) var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgray-200);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1200px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+    padding-left: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    gap: 0 23px;
+  }
+}

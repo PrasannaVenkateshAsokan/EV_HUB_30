@@ -1,0 +1,168 @@
+.image1Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.outputAggregator {
+  align-self: stretch;
+  width: 208px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl) 0 0;
+  box-sizing: border-box;
+}
+.vehicles {
+  position: relative;
+  font-weight: 500;
+}
+.jobCards {
+  white-space: nowrap;
+}
+.jobCards,
+.management {
+  position: relative;
+  font-weight: 500;
+}
+.connectionBreakerChild {
+  height: 3px;
+  width: 120px;
+  position: relative;
+}
+.connectionBreaker,
+.errorHandler {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.connectionBreaker {
+  height: 0;
+  flex-direction: row;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.errorHandler {
+  flex-direction: column;
+  gap: 8.5px 0;
+}
+.valueTransformerIcon {
+  width: 12px;
+  height: 5px;
+  position: relative;
+}
+.outputMapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+}
+.sequenceManager {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0 6px;
+  color: var(--color-darkslateblue);
+}
+.functionApplier,
+.loopController,
+.sequenceManager {
+  display: flex;
+  align-items: flex-start;
+}
+.loopController {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.functionApplier {
+  width: 540px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-2xs-5);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.valueCombinerIcon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+}
+.valueTrackerIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 20px;
+}
+.valueUpdaterIcon {
+  position: absolute;
+  top: 3px;
+  left: 19px;
+  width: 12px;
+  height: 5px;
+}
+.valueHolder {
+  width: 31px;
+  height: 20px;
+  position: relative;
+}
+.valueSplitter {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-12xs);
+}
+.valueFilter,
+.valueSplitter,
+.valueValidator {
+  display: flex;
+  justify-content: flex-start;
+}
+.valueFilter {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 16px;
+}
+.valueValidator {
+  height: 71px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.inputCollector,
+.logicGateway {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.inputCollector {
+  align-self: stretch;
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-montserrat);
+}
+.logicGateway {
+  width: 1422px;
+  height: 93px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1050px) {
+  .loopController {
+    display: none;
+  }
+  .functionApplier {
+    width: 0;
+  }
+}
